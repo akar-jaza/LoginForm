@@ -10,9 +10,12 @@
 		1FFFA99229FD578700BF0FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */; };
 		1FFFA99429FD578700BF0FA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */; };
 		1FFFA99629FD578700BF0FA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99529FD578700BF0FA4 /* ViewController.swift */; };
-		1FFFA99929FD578700BF0FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA99729FD578700BF0FA4 /* Main.storyboard */; };
 		1FFFA99B29FD578800BF0FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */; };
 		1FFFA99E29FD578800BF0FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA99C29FD578800BF0FA4 /* LaunchScreen.storyboard */; };
+		1FFFA9A929FD58D200BF0FA4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1FFFA9A829FD58D200BF0FA4 /* FirebaseAuth */; };
+		1FFFA9AB29FD5D3700BF0FA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA9AA29FD5D3700BF0FA4 /* GoogleService-Info.plist */; };
+		1FFFA9AF29FD62E100BF0FA4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA9AD29FD62E100BF0FA4 /* SignupViewController.swift */; };
+		1FFFA9B029FD62E100BF0FA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA9AE29FD62E100BF0FA4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,12 @@
 		1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1FFFA99529FD578700BF0FA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FFFA99829FD578700BF0FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FFFA99D29FD578800BF0FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FFFA99F29FD578800BF0FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFFA9AA29FD5D3700BF0FA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FFFA9AD29FD62E100BF0FA4 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1FFFA9AE29FD62E100BF0FA4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFFA9A929FD58D200BF0FA4 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +65,22 @@
 				1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */,
 				1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */,
 				1FFFA99529FD578700BF0FA4 /* ViewController.swift */,
-				1FFFA99729FD578700BF0FA4 /* Main.storyboard */,
+				1FFFA9AC29FD62E100BF0FA4 /* Login+SignUp */,
 				1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */,
 				1FFFA99C29FD578800BF0FA4 /* LaunchScreen.storyboard */,
 				1FFFA99F29FD578800BF0FA4 /* Info.plist */,
+				1FFFA9AA29FD5D3700BF0FA4 /* GoogleService-Info.plist */,
 			);
 			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		1FFFA9AC29FD62E100BF0FA4 /* Login+SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1FFFA9AD29FD62E100BF0FA4 /* SignupViewController.swift */,
+				1FFFA9AE29FD62E100BF0FA4 /* LoginViewController.swift */,
+			);
+			path = "Login+SignUp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +99,9 @@
 			dependencies = (
 			);
 			name = LoginForm;
+			packageProductDependencies = (
+				1FFFA9A829FD58D200BF0FA4 /* FirebaseAuth */,
+			);
 			productName = LoginForm;
 			productReference = 1FFFA98E29FD578700BF0FA4 /* LoginForm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 1FFFA98529FD578700BF0FA4;
+			packageReferences = (
+				1FFFA9A729FD58D200BF0FA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1FFFA98F29FD578700BF0FA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +149,7 @@
 			files = (
 				1FFFA99E29FD578800BF0FA4 /* LaunchScreen.storyboard in Resources */,
 				1FFFA99B29FD578800BF0FA4 /* Assets.xcassets in Resources */,
-				1FFFA99929FD578700BF0FA4 /* Main.storyboard in Resources */,
+				1FFFA9AB29FD5D3700BF0FA4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +162,8 @@
 			files = (
 				1FFFA99629FD578700BF0FA4 /* ViewController.swift in Sources */,
 				1FFFA99229FD578700BF0FA4 /* AppDelegate.swift in Sources */,
+				1FFFA9AF29FD62E100BF0FA4 /* SignupViewController.swift in Sources */,
+				1FFFA9B029FD62E100BF0FA4 /* LoginViewController.swift in Sources */,
 				1FFFA99429FD578700BF0FA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FFFA99729FD578700BF0FA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FFFA99829FD578700BF0FA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FFFA99C29FD578800BF0FA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +307,9 @@
 				INFOPLIST_FILE = LoginForm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +334,9 @@
 				INFOPLIST_FILE = LoginForm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FFFA9A729FD58D200BF0FA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FFFA9A829FD58D200BF0FA4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FFFA9A729FD58D200BF0FA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FFFA98629FD578700BF0FA4 /* Project object */;
 }
