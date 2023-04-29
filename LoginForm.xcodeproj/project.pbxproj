@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FFFA99229FD578700BF0FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */; };
 		1FFFA99429FD578700BF0FA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */; };
-		1FFFA99629FD578700BF0FA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99529FD578700BF0FA4 /* ViewController.swift */; };
+		1FFFA99629FD578700BF0FA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFA99529FD578700BF0FA4 /* HomeViewController.swift */; };
 		1FFFA99B29FD578800BF0FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */; };
 		1FFFA99E29FD578800BF0FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFFA99C29FD578800BF0FA4 /* LaunchScreen.storyboard */; };
 		1FFFA9A929FD58D200BF0FA4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1FFFA9A829FD58D200BF0FA4 /* FirebaseAuth */; };
@@ -22,7 +22,7 @@
 		1FFFA98E29FD578700BF0FA4 /* LoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FFFA99529FD578700BF0FA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FFFA99529FD578700BF0FA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FFFA99D29FD578800BF0FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FFFA99F29FD578800BF0FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				1FFFA99129FD578700BF0FA4 /* AppDelegate.swift */,
 				1FFFA99329FD578700BF0FA4 /* SceneDelegate.swift */,
-				1FFFA99529FD578700BF0FA4 /* ViewController.swift */,
+				1FFFA99529FD578700BF0FA4 /* HomeViewController.swift */,
 				1FFFA9AC29FD62E100BF0FA4 /* Login+SignUp */,
 				1FFFA99A29FD578800BF0FA4 /* Assets.xcassets */,
 				1FFFA99C29FD578800BF0FA4 /* LaunchScreen.storyboard */,
@@ -160,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FFFA99629FD578700BF0FA4 /* ViewController.swift in Sources */,
+				1FFFA99629FD578700BF0FA4 /* HomeViewController.swift in Sources */,
 				1FFFA99229FD578700BF0FA4 /* AppDelegate.swift in Sources */,
 				1FFFA9AF29FD62E100BF0FA4 /* SignupViewController.swift in Sources */,
 				1FFFA9B029FD62E100BF0FA4 /* LoginViewController.swift in Sources */,
